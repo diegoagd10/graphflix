@@ -1,0 +1,36 @@
+{
+  "name": "graphflix",
+  "version": "1.0.0",
+  "description": "REST API de graphflix con GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoagd10/graphflix.git"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "node",
+    "mongoose",
+    "mongodb",
+    "dataloaders"
+  ],
+  "author": "Diego Antonio Gómez Díaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegoagd10/graphflix/issues"
+  },
+  "homepage": "https://github.com/diegoagd10/graphflix#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "mongoose": "^4.10.7",
+    "morgan": "^1.8.2"
+  }
+}
